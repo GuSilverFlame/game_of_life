@@ -1,4 +1,4 @@
-defmodule Grid.CellStates do
+defmodule GameOfLife.LifeGrid do
   def find_life(last_known_lives, {lim_x, lim_y}) do
     for grid_x <- 0..lim_x, grid_y <- 0..lim_y do
       {grid_x, grid_y}
